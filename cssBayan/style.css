@@ -36,7 +36,7 @@ input {
 .accordion__item {
   background-color: #fff;
   border-radius: 0.3em;
-  border: solid 0.2em rgb(112, 109, 168);
+  border: solid 0.2em rgb(103, 99, 154);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -96,10 +96,6 @@ input {
   }
   .accordion__item:hover > .accordion__icon {
     transform: rotate(45deg);
-  }
-  .accordion__item:hover > .accordion__icon svg {
-    stroke: rgb(153, 147, 255);
-    fill: red;
   }
 }
 @media (max-width: 1180px) {
